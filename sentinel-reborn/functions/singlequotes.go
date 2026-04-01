@@ -4,8 +4,8 @@ import (
 	"regexp"
 )
 
-func singleQuotes(s string) string {
+func SingleQuotes(s string) string {
 	re := regexp.MustCompile(`'\s*(.*?)\s*'`)
 
-	return re.replaceAllString(s, "'$1'")
+	return re.ReplaceAllString(s, "'$1'")
 }
