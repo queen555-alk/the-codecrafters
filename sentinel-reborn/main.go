@@ -8,16 +8,17 @@ import (
 )
 
 func CallFiles(text string) string {
-	input := functions.Vowels(text)
-	input = functions.Bin(input)
+	input := functions.ToUpper(text)
 	input = functions.Cap(input)
+	input = functions.Lower(input)
 	input = functions.CommandN(input)
+	input = functions.Bin(input)
 	input = functions.Hex(input)
+	input = functions.Vowels(input)
 	input = functions.Punctuation(input)
 	input = functions.SingleQuotes(input)
-	input = functions.ToUpper(input)
 
-	return text
+	return input
 }
 func ReadLines(text string) string {
 	words := strings.Split(text, "\n")
@@ -28,16 +29,14 @@ func ReadLines(text string) string {
 	return strings.Join(words, "\n")
 }
 func main() {
-	inputfile := os.Args[1]
-	outputfile := os.Args[2]
 
-	data, err := os.ReadFile(inputfile)
+	data, err := os.ReadFile("input.txt")
 	if err != nil {
 		log.Fatal(err)
 	}
-	result := CallFiles(string(data))
+	result := ReadLines(string(data))
 
-	err = os.WriteFile(outputfile, []byte(result), 0644)
+	err = os.WriteFile("output.txt", []byte(result), 0644)
 	if err != nil {
 		log.Fatal(err)
 	}
