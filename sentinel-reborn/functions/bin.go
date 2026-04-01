@@ -1,16 +1,6 @@
-// func binToDecima(str string, base int) (int64, error){
-// 	con, err := strconv.ParseInt(str, base, 64)
-// 	if err != nil{
-// 		log.Fatal(err)
-// 	}
-// 	return con, err
-
-// }
-
-package main
+package functions
 
 import (
-	"fmt"
 	"log"
 	"strconv"
 	"strings"
@@ -33,8 +23,4 @@ func BinToDecimal(str string) string {
 
 	}
 	return strings.Join(slice, " ")
-}
-
-func main() {
-	fmt.Println(BinToDecimal("today is 1010 (bin) of january"))
 }
