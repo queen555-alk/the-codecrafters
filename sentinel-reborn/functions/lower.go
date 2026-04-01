@@ -1,11 +1,11 @@
-package main
+package functions
 
 import (
 	"strings"
 )
 
 // queen is to work here
-func Lowercase(text string) string {
+func Lower(text string) string {
 	words := strings.Fields(text)
 	for i := 0; i < len(words); i++ {
 		if words[i] == "(low)" && i > 0 {

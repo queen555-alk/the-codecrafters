@@ -1,11 +1,11 @@
-package main
+package functions
 
 import (
 	"strconv"
 	"strings"
 )
 
-func ToUpperCase(text string) string {
+func ToUpper(text string) string {
 	words := strings.Fields(text)
 	for i := 0; i < len(words)-1; i++ {
 		if words[i] == "(up)" && i > 0 {

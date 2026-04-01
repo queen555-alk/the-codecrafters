@@ -4,7 +4,7 @@ import (
 	"strings"
 )
 
-func cap(s string) string {
+func Cap(s string) string {
 	words := strings.Fields(s)
 	for i := 0; i < len(words); i++ {
 

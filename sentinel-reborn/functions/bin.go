@@ -6,7 +6,7 @@ import (
 	"strings"
 )
 
-func BinToDecimal(str string) string {
+func Bin(str string) string {
 	slice := strings.Fields(str)
 
 	for i := 1; i < len(slice); i++ {

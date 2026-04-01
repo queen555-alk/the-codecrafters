@@ -6,7 +6,7 @@ import (
 	"strings"
 )
 
-func HexToBin(words string) string {
+func Hex(words string) string {
 	input := strings.Fields(words)
 
 	for i := 1; i < len(input); i++ {
