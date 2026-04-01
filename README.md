@@ -132,12 +132,13 @@ Output:
 
 ## 👥 TEAM — DEBUGGERS
 Name |	Role  | function implemented  
------|--------|------------
+-----|--------|------------  
 Victor Akkor |	Code Legend |  
 Queen |	Team Lead  |  
 Timothy Ododo |	Developer | Single Quote function  
 Adah Jerry | Developer | command marker  
 Adanu Gabriel Oche | Developer | main function  
+Moses Attah | Developer | Binary function  
 
 
 ## 🧙 THE CODE LEGEND SYSTEM
