@@ -21,73 +21,74 @@ Everything you have built so far… were pieces.
 
 Today — you build the machine.
 
-🧠 PROJECT OVERVIEW
+## 🧠 PROJECT OVERVIEW
 
 SENTINEL REBORN is a core text processing engine designed to:
 
-📥 Read raw intelligence (input text/files)
-🧠 Interpret and process structured/unstructured data
-🔄 Apply multiple transformation pipelines
-📤 Output refined, actionable intelligence
+📥 Read raw intelligence (input text/files)  
+🧠 Interpret and process structured/unstructured data  
+🔄 Apply multiple transformation pipelines  
+📤 Output refined, actionable intelligence  
 
-This system simulates a real-world data processing pipeline, combining:
+This system simulates a real-world data processing pipeline, combining:  
 
-Text parsing
-Command-based transformations
-File I/O handling
-Modular function execution
-⚙️ CORE OBJECTIVE
+- Text parsing
+- Command-based transformations
+- File I/O handling
+- Modular function execution
+- ⚙️ CORE OBJECTIVE
 
-Build a modular, extensible Go-based engine that:
+### Build a modular, extensible Go-based engine that:
 
-Processes input text dynamically
-Applies transformation commands
-Handles edge cases gracefully
-Writes results to output streams/files
+- Processes input text dynamically
+- Applies transformation commands
+- Handles edge cases gracefully
+- Writes results to output streams/files
 
 ## 🏗️ PROJECT STRUCTURE
-sentinel-reborn/
-│
-├── main.go                # Entry point of the application
-│
-└── functions/            # Core transformation modules
-    ├── bin.go            # Binary conversion logic
-    ├── cap.go            # Capitalization logic
-    ├── commandN.go       # Command parsing & execution
-    ├── hex.go            # Hexadecimal conversion logic
-    ├── lower.go          # Lowercase transformation
-    ├── puctuation.go     # Punctuation handling
-    ├── singlequotes.go   # Single quote formatting
-    ├── up.go             # Uppercase transformation
-    └── vowels.go         # Vowel processing rules
+sentinel-reborn/  
+│  
+├── main.go                # Entry point of the application  
+│  
+└── functions/            # Core transformation modules  
+    ├── bin.go            # Binary conversion logic  
+    ├── cap.go            # Capitalization logic  
+    ├── commandN.go       # Command parsing & execution  
+    ├── hex.go            # Hexadecimal conversion logic  
+    ├── lower.go          # Lowercase transformation  
+    ├── puctuation.go     # Punctuation handling  
+    ├── singlequotes.go   # Single quote formatting  
+    ├── up.go             # Uppercase transformation  
+    └── vowels.go         # Vowel processing rules  
 
 ## 🧩 SYSTEM DESIGN
 
 The system follows a pipeline architecture:
 
-INPUT → PARSE → TRANSFORM → OUTPUT
-🔄 Transformation Flow
-Input ingestion
-Read from file or stdin
-Command parsing
-Detect transformation instructions
-Execution pipeline
-Apply transformations in sequence:
-Case conversions (upper, lower, capitalize)
-Encoding (hex, bin)
-Formatting (quotes, punctuation)
-Linguistic rules (vowels, grammar)
-Output generation
-Write processed text to stdout or file
-🧠 KEY FEATURES
-✅ Modular Function Design
+- INPUT → PARSE → TRANSFORM → OUTPUT
+- 🔄 Transformation Flow
+- Input ingestion
+- Read from file or stdin
+- Command parsing
+- Detect transformation instructions
+- Execution pipeline
+- Apply transformations in sequence:
+- Case conversions (upper, lower, capitalize)
+- Encoding (hex, bin)
+- Formatting (quotes, punctuation)
+- Linguistic rules (vowels, grammar)
+- Output generation
+- Write processed text to stdout or file
+- 🧠 KEY FEATURES
+
+## ✅ Modular Function Design
 
 Each transformation is isolated in its own file for:
 
-Reusability
-Maintainability
-Testability
-✅ Command-Based Processing
+- Reusability
+- Maintainability
+- Testability
+- ✅ Command-Based Processing
 
 Dynamic commands control behavior:
 
@@ -115,7 +116,9 @@ cd sentinel-reborn
 2. Initialize Go module (if needed)
 go mod tidy
 3. Run the program
-go run main.go input.txt output.txt
+go run . input.txt output.txt  
+
+
 🧪 SAMPLE USAGE
 Input:
 this is a test (up)
@@ -125,12 +128,17 @@ Input:
 1E (hex)
 Output:
 30
-👥 TEAM — DEBUGGERS
-Name	Role
-Queen	Team Lead
-Timothy Ododo	Developer
-Victor Akkor	Code Legend
-🧙 THE CODE LEGEND SYSTEM
+
+
+## 👥 TEAM — DEBUGGERS
+Name |	Role  | function implemented  
+-----|--------|------------
+Victor Akkor |	Code Legend |  
+Queen |	Team Lead  |  
+Timothy Ododo |	Developer | Single Quote  
+
+
+## 🧙 THE CODE LEGEND SYSTEM
 
 Each squad is assigned a Code Legend whose role is to:
 
@@ -143,33 +151,33 @@ Each squad is assigned a Code Legend whose role is to:
 They do not give answers.
 They unlock thinking.
 
-⏱️ MISSION TIMELINE
+## ⏱️ MISSION TIMELINE
 Time	Activity
 09:00 AM	Mission Briefing
 09:30 AM	Planning Complete
 01:00 PM	Checkpoint 1
 05:00 PM	Checkpoint 2
 09:00 PM	Final Assembly
-🧠 DEVELOPMENT PRINCIPLES
-Plan before code
-Write modular functions
-Handle edge cases early
-Test continuously
-Collaborate, then assemble
-⚠️ RULES OF ENGAGEMENT
-❌ No shortcuts
-❌ No copy-paste solutions
-✅ Think before coding
-✅ Build independently
-✅ Integrate as a team
-🔥 FINAL DIRECTIVE
+## 🧠 DEVELOPMENT PRINCIPLES
+Plan before code  
+Write modular functions  
+Handle edge cases early  
+Test continuously  
+Collaborate, then assemble  
+## ⚠️ RULES OF ENGAGEMENT
+❌ No shortcuts  
+❌ No copy-paste solutions  
+✅ Think before coding  
+✅ Build independently  
+✅ Integrate as a team  
+🔥 FINAL DIRECTIVE  
 
 SENTINEL will either come back online tonight —
 or it will not.
 
 That decision belongs entirely to you.
 
-🏁 CONCLUSION
+## 🏁 CONCLUSION
 
 This project is more than just code.
 
@@ -182,6 +190,6 @@ A test of teamwork
 And most importantly —
 a test of what you are capable of building under pressure.
 
-📜 LICENSE
+## 📜 LICENSE
 
 This project is developed as part of the Learn2Earn CodeCrafters Program.
