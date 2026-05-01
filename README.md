@@ -137,9 +137,9 @@ Victor Akkor |	Code Legend |
 Queen |	Team Lead  |  
 Timothy Ododo |	Developer | Single Quote function  
 Adah Jerry | Developer | command marker  
-Adanu Gabriel Oche | Developer | main function  
+Adanu Gabriel Oche | Developer | main function
+Christopher Okpotu | Developer | Vowel function
 Moses Attah | Developer | Binary function  
-
 
 ## 🧙 THE CODE LEGEND SYSTEM
 
